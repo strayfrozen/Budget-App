@@ -1,8 +1,10 @@
 {
-  "name": "budget-app",
+  "name": "myapp",
+  "description": "a really cool app",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "engines": {
+    "node": "12.11.1"
+  },
   "scripts": {
     "dev": "react-scripts start",
     "start": "serve -s build",
@@ -10,7 +12,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
